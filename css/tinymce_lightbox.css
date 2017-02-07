@@ -1,0 +1,113 @@
+#wlmtnmcelbox,
+#wlmtnmcelbox .media-modal,
+.wlmtnmcelbox .media-modal-backdrop{
+	display: none;
+}
+.wlmtnmcelbox .media-modal{
+	top:    15%;
+	right:  15%;
+	bottom: 15%;
+	left:   15%;
+}
+
+.wlmtnmcelbox-regform-modal {
+	height: 40% !important;
+
+}
+
+.wlmtnmcelbox .media-frame-title,
+.wlmtnmcelbox .media-frame-content,
+.wlmtnmcelbox .media-frame-toolbar,
+.wlmtnmcelbox .media-frame-router{
+	left: 0px;
+}
+.wlmtnmcelbox .media-sidebar {
+	display: none;
+}
+
+.wlmtnmcelbox .media-modal-content {
+	min-height: 98% !important;
+	border: 1px solid #0f;
+	overflow: visible;
+}
+
+.wlmtnmcelbox .wlmtnmcelbox-content {
+	margin-top: 60px;
+	min-height: 100%;
+	height:100% !important;
+	height: 100%;
+}
+
+.wlmtnmcelbox .media-modal-content .options-holder{
+	width: 95% !important;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	min-height: 50%;
+	height:50% !important;
+}
+
+.wlmtnmcelbox .media-modal-content .options-holder .wlmtnmcelbox-content-text {
+	text-align: left;
+	min-height: 30%;
+	height: 30% !important;
+	height: 30%;
+	width: 99% !important;
+	padding-top:5px;
+	margin: 0px;
+}
+
+.wlmtnmcelbox .wlmtnmcelbox-preview {
+	width: 95% !important;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	min-height: 30%;
+	height:30% !important;
+	height: 30%;
+	clear: both;
+}
+
+#wlmtnmce-paypal-lightbox.wlmtnmcelbox .wlmtnmcelbox-preview {
+	width: auto !important;
+}
+
+.wlmtnmcelbox .wlmtnmcelbox-preview-msg {
+	margin-bottom: 4px !important;
+	overflow: hidden;
+}
+.wlmtnmcelbox .wlmtnmcelbox-preview textarea{
+	text-align: left;
+	min-height: 80%;
+	height: 80% !important;
+	height: 80%;
+	width: 99% !important;
+	padding: 5px 0 0 0 !important;
+	margin: 0px;
+}
+
+.wlmtnmcelbox .wlmtnmcelbox-insertcode {
+	float: right;
+}
+#wlmtnmce-paypal-lightbox.wlmtnmcelbox .wlmtnmcelbox-insertcode {
+	float: none;
+}
+
+.wlmtnmcelbox .modal-field-label{
+	padding: 0px !important;
+	margin: 5px 0px 5px 0px !important;
+}
+
+.wlmtnmcelbox a {
+	cursor: pointer;
+}
+
+.wlmtnmcelbox .hidden{
+	display: none;
+}
+
+.wlmtnmcelbox .options-holder textarea {
+	text-align: left;
+	width: 100% !important;
+	padding:5px !important;
+	margin: 0px;
+	box-sizing: border-box;
+}

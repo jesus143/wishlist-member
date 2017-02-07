@@ -1,0 +1,209 @@
+.wlm_regform_improved {
+	min-width: 400px;
+	max-width: 550px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: transparent;
+	font-size: 13px;
+	text-shadow: none !important;
+	color: #000000;
+}
+
+.wlm_regform_improve form {
+	margin: 0;
+	padding: 0;
+}
+
+.wlm_regform_toggle {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.wlm_regform_toggle label {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+.wlm_regform_toggle input {
+	margin-right: 5px;
+	vertical-align: 1px;
+	font-size: 1em;
+	display: inline;
+	width: auto;
+}
+
+.wlm_regform_container {
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.wlm_regform_container * {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	background: transparent;
+}
+
+.wlm_regform_container div {
+	width: auto;
+}
+
+.wlm_show_existing_regform .wlm_regform_new_user,
+.wlm_show_new_regform .wlm_regform_existing_user
+{
+	display: none;
+}
+
+.wlm_form_group {
+	margin: 0 0 1.5em 0;
+	clear: both;
+}
+
+.wlm_form_group {
+	padding-left: 110px;
+}
+
+.wlm_form_group.wlm_form_paragraph{
+	padding-left: 0 !important;
+}
+
+.wlm_form_group.wlm_form_section_header{
+	padding-left: 0 !important;
+	font-weight: bold;
+	font-size:1.2em;
+}
+
+.wlm_form_label {
+		margin-left: -110px;
+		width: 100px;
+		padding-top: .15em;
+		padding-right: 10px;
+		display: block;
+		float: left;
+}
+
+.wlm_form_group.wlm_required_field .wlm_form_label {
+	color: red;
+}
+
+.wlm_form_group .wlm_option_group label {
+	display: block;
+}
+.wlm_form_group .wlm_field_tos_content {
+	display: block;
+	border: 1px solid #888;
+	padding: 5px;
+	overflow: auto;
+	height: 10em;
+	margin-top: .5em;
+}
+.wlm_form_group .wlm_field_tos_content.wlm_tos_lightbox {
+	display: none;
+}
+
+
+
+.wlm_regform_container .fld {
+	display: block;
+	padding: 5px;
+	margin-bottom: .5em;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border: 1px solid #838383;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	outline: none;
+	background: #fff;
+	color: #000;
+}
+
+.wlm_regform_container .fld:focus {
+	border: 1px solid #0088ff;
+	box-shadow: 0 0 7px rgba(0, 128, 255, 0.5);
+    -webkit-box-shadow: 0 0 7px rgba(0, 128, 255, 0.5);
+    -moz-box-shadow: 7px rgba(0, 128, 255, 0.5);
+	background: #ffffcc;
+}
+
+.wlm_regform_container input.submit {
+	border: 1px solid #838383;
+	color: #000;
+	font-size: 1em;
+	outline: none;
+	padding: .5em;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	background: rgb(246,246,246); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(246,246,246,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(246,246,246,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(246,246,246,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+
+}
+
+.wlm_regform_container .submit.button:hover,
+.wlm_regform_container .submit.button:focus,
+.wlm_regform_container .submit.button:active {
+	border: 1px solid #0088ff;
+	box-shadow: 0 0 7px rgba(0, 128, 255, 0.5);
+    -webkit-box-shadow: 0 0 7px rgba(0, 128, 255, 0.5);
+    -moz-box-shadow: 7px rgba(0, 128, 255, 0.5);
+}
+
+.wlm_regform_container p.wlm_field_description {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3em;
+	font-size: .85em;
+	color: #636363;
+}
+
+.wlm_regform_container p.submit {
+	margin: .5em 0 0 0;
+	padding: 0;
+}
+
+.wlm_regform_improved p.forgotpassword {
+	float: right;
+	margin-top: .5em;
+}
+.wlm_regform_improved p.submit {
+	margin-left: 110px;
+}
+
+/* responsive adjustments */
+@media screen and (max-width: 700px) {
+	.wlm_form_label {
+		margin-left: 0;
+		width: auto;
+		padding-top: 0;
+		padding-right: 10px;
+		display: block;
+		float: none;
+	}
+	.wlm_form_group {
+		padding-left: 0px;
+	}
+	.wlm_regform_improved {
+		min-width: 0;
+		max-width: 100%;
+	}
+	.wlm_regform_improved p.submit {
+		margin-left: 0;
+	}
+}

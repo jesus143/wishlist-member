@@ -1,0 +1,45 @@
+#################################################################
+# This file is added to list known conflicts with other plugins #
+#################################################################
+
+Plugin: WordPress SEO Master
+URL: http://www.ezbizniz.com/wordpress-plugins/wordpress-seo-master
+Conflict: Conflict with admin menu making WishList Member inaccessible
+
+Plugin: WP Shopping Cart
+URL: http://www.instinct.co.nz/
+Conflict: Updating a page returns a blank page and does not update the page.
+
+Plugin: User Access Manager
+URL: http://www.gm-alex.de/projects/wordpress/plugins/user-access-manager/
+Conflict: Renders the WordPress blog inaccessible if both WishList Member and this plugin are activated
+
+Plugin: Permalink Redirect
+URL: http://yoast.com/wordpress/permalink-redirect/
+Conflict: Plugin strips out all query variables effectively disabling the WishList Member registration process
+
+Plugin: Pretty Link Pro
+URL: wordpress.org/extend/plugins/pretty-link/
+Conflict: It caches the registration form if Content Replacement Caching is enabled
+
+Plugin: Cimy User Extra Fields
+URL: http://wordpress.org/extend/plugins/cimy-user-extra-fields/
+Conflict: When activated it won't allow user to be deleted.
+
+Plugin: Extended Profile
+URL: wordpress.org/extend/plugins/extended-profile
+Conflict: It skip reg form.
+
+Plugin: Blog in Blog
+URL: wordpress.org/extend/plugins/blog-in-blog/ 
+Conflict: It prevent WishList Member registration form work right.
+
+Plugin: Profile Builder Pro
+URL: http://wordpress.org/extend/plugins/profile-builder/
+Conflict: It skip reg form.
+
+Plugin: Loop Buddy
+URL: http://pluginbuddy.com/
+Conflict: It causes registration information to be sent twice causing an error saying that the username is already in use.
+
+EOF.

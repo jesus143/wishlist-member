@@ -1,0 +1,26 @@
+Translating WishList Member
+
+I. Create the correct language file
+
+1. Download poEdit at www.poedit.net
+2. Open the file lang/wishlist-member-en_US.po
+3. Click File -> Save As and change en_US to anything you want
+   (i.e. de for German) so that the filename becomes something
+   like wishlist-member-de.po
+4. Translate
+5. Click File -> Save.  This should generate a new .po and a
+   new .mo file.  If poEdit does not generate the .mo file
+   automatically, just go to File -> Preferences -> Editor and
+   check the box that says "Automatically compile .mo file on save"
+6. Upload new .po and .mo file
+
+This now generates the correct .po and .mo files for your language.
+
+II. Tell WordPress to use your language file
+
+1. Edit wp-config.php
+2. Locate the line that says: define ('WPLANG', '');
+3. Change it to: define ('WPLANG, 'de');
+   (Note, use whatever language code you used when you
+    made your translation in step I-3)
+4. Save wp-config.php

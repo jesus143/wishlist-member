@@ -1,0 +1,37 @@
+#lean_overlay {position: fixed; z-index:100; top: 0px; left: 0px; height:100%; width:100%; background: #000; display: none;}
+.stripe-signup * { margin: 0; padding: 0;}
+.stripe-signup { width: 404px; max-width: 100%; display:none; padding-bottom: 2px;background: #FFF; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7); font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif; font-size: 12px;}
+.stripe-signup input[type=text] { display: inline-block; }
+.stripe-signup .txt-fld label { margin-left: 14px; }
+.stripe-signup .widefield label { margin-left: 0px; }
+.stripe-signup-header { background: url(../images/stripe-header.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+.stripe-signup-header  h2 { display: inline; line-height: 30px; color: #444; font-size: 1.5em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);}
+.stripe-signup-header  img.stripe-logo { height: 40px; width: 90px; vertical-align: bottom; display: inline-block; margin-right: 12px;}
+.stripe-signup .txt-fld { position: relative; width: 100%; padding: 14px 0px 14px 0px; border-bottom: 1px solid #EEE; text-align: left; margin: 0px;}
+.stripe-signup .btn-fld { width: 370px; overflow: hidden; padding: 10px 10px !important;}
+.stripe-signup .txt-fld label { display: block; float: left; width: 90px; padding-top: 8px; color: #222; font-size: 1em; text-align: left;  }
+.stripe-signup .txt-fld input { width: 244px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; margin: 0px; }
+.stripe-signup .txt-fld input.good_input { background: #DEF5E1 url(../images/stripe-check.png) 235px center no-repeat; }
+.stripe-signup .txt-fld input.error_input { background: #FDE0E0; }
+
+.stripe-signup .widefield { position: relative; float: left; width: 100%; padding: 14px 0px 14px 0px; border-bottom: 1px solid #EEE; text-align: left; margin: 0px;}
+.stripe-signup .widefield .expires { float:left; width: 150px; text-align: left; margin-left: 105px;}
+.stripe-signup .widefield .expires label { color: #222; display: block; float: left; width: 100%;}
+.stripe-signup .widefield .expires input { width: 45px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; margin: 0px; }
+
+.stripe-signup .widefield .code { float:left; width: 100px; text-align: left;}
+.stripe-signup .widefield .code label { color: #222; display: block; float: left; width: 180px;}
+.stripe-signup .widefield .code input { width: 60px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; margin: 0px;}
+.stripe-signup .widefield input.good_input { background: #DEF5E1 url(../images/stripe-check.png) 235px center no-repeat; }
+.stripe-signup .widefield input.error_input { background: #FDE0E0; }
+.stripe-signup div.stripe-error { color: red; text-align: center;}
+.stripe-close { background: url(../images/stripe-close.png); position: absolute; top: 12px; right: 12px; display: block; width: 14px; height: 14px;}
+.stripe-button { cursor: pointer; display: block; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; background: #3F9D4A; border: none; width: auto; overflow: visible; font-size: 1.4em; color: #FFF; padding: 7px 10px !important;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-weight: bold; text-shadow: 0 1px 0 rgba(0,0,0,0.4);}
+.stripe-amount {font-weight: normal; font-size: 12px;}
+.stripe-waiting {display: none;}
+.btn-fld .stripe-button {margin: 0px auto;}
+.stripe-login { display:none;}
+
+@media screen and (max-width: 364px){
+	.stripe-signup .widefield .expires { float:left; width: 100px; max-width: 100%; text-align: left; margin-left: 14px;}	
+}

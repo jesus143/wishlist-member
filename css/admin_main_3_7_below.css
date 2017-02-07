@@ -1,0 +1,593 @@
+/* Wish List Stylesheet */
+
+/* @group Original Legacy CSS */
+
+tr.wlm_new_taxonomy th, tr.wlm_new_taxonomy td{
+	border-top:4px solid #ccc;
+}
+
+.WLRequired {
+	background: url(../images/asterisk.gif) no-repeat right center;
+}
+
+.WLSubMenu {
+	list-style: none;
+	margin: 0 0 5px 0;
+	padding: 0;
+	height: 2em;
+	font-size: 14px;
+	clear: both;
+	background: #ECECEC none repeat scroll 0 0;
+}
+
+.WLSubMenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.WLSubMenu li a {
+	display: block;
+	float: left;
+	margin: 0 0 0 12px;
+	padding: 0 5px;
+	text-decoration: none;
+	line-height: 200%;
+}
+
+.WLSubMenu li a.current {
+	color: #D54E21;
+}
+
+body.toplevel_page_WishListMember #submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+body.toplevel_page_WishListMember #submenu li a {
+	margin: 0 0 0 12px;
+	padding: 0 5px;
+	display: block;
+	float: left;
+}
+
+body.toplevel_page_WishListMember #submenu li a.current {
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	background: #ECECEC none repeat scroll 0 0;
+}
+
+/* @end */
+
+/* @group Member News Widget */
+
+body.toplevel_page_WishListMember .rss-widget ul {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+/* @end */
+
+/* @group Miscellaneous Fixes */
+
+body.toplevel_page_WishListMember .postbox h3 {
+	cursor: default !important;
+}
+
+body.toplevel_page_WishListMember .wrap {
+	clear: both;
+	margin-top: 20px;
+	min-width: 950px !important;
+}
+
+body.toplevel_page_WishListMember .wrap h2 {
+	padding-left: 0;
+	margin-top: 20px;
+	/*width: 100%;*/
+	/*min-width: 950px !important;*/
+}
+
+body.toplevel_page_WishListMember .wrap h2.small {
+	font-size: 18px;
+}
+
+body.toplevel_page_WishListMember .wrap h2.noline {
+	border: 0;
+}
+
+body.toplevel_page_WishListMember .wrap h3 {
+	padding-left: 10px;
+	/* margin-top: 20px; */
+}
+
+body.toplevel_page_WishListMember tr.underline {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+body.toplevel_page_WishListMember hr,
+body.toplevel_page_WishListMember hr.clear {
+	clear: both;
+	border: 0;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 5px 0;
+}
+
+body.toplevel_page_WishListMember a.large {
+	font-size: 18px !important;
+}
+
+body.toplevel_page_WishListMember .integrationInstructions {
+	margin-left: 30px;
+}
+
+body.toplevel_page_WishListMember .integrationInstructions h2 {
+	padding-left: 0px;
+}
+
+/* @end */
+
+/* @group Dashboard */
+
+body.toplevel_page_WishListMember .postbox-container {
+	min-width: 410px;
+}
+
+body.toplevel_page_WishListMember .table.table_content {
+	min-width: 220px;
+}
+
+body.toplevel_page_WishListMember .table.table_discussion {
+	max-width: 150px;
+}
+
+/* @end */
+
+/* @group Menus */
+
+body.toplevel_page_WishListMember h2.wl-nav-tab-wrapper {
+	/*width: 98%;*/
+	/*min-width: 1070px !important;*/
+	margin-right: 18px;
+	padding-right: 0;
+	clear: both;
+	height: 36px;
+	padding-left: 37px;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+	background: url(../images/WishList-Icon-Blue-32-rounded.png) no-repeat 0px 6px;
+}
+
+body.toplevel_page_WishListMember a.wl-nav-tab,
+body.toplevel_page_WishListMember a.wl-nav-tab:hover,
+body.toplevel_page_WishListMember a.wl-nav-tab:active {
+	font-size: 18px !important;
+	line-height: 35px !important;
+	padding: 0 10px 0 10px !important;
+	border-bottom: 1px solid #ccc;
+	margin-left: -1px;
+	background-color: #fff;
+	
+
+}
+
+body.toplevel_page_WishListMember a.wl-nav-tab-active,
+body.toplevel_page_WishListMember a.wl-nav-tab-active:hover,
+body.toplevel_page_WishListMember a.wl-nav-tab-active:active {
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+	
+}
+
+body.toplevel_page_WishListMember a.has-sub-menu,
+body.toplevel_page_WishListMember a.has-sub-menu:active,
+body.toplevel_page_WishListMember a.has-sub-menu:hover {
+	border-bottom: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu {
+	/*width: 98%;*/
+	/*min-width: 950px !important;*/
+	clear: both;
+	list-style: none;
+	margin: 0 18px 0 0;
+	padding: 0 0 0 10px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #dfdfdf;
+	height: 36px;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu li {
+	display: inline;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu a {
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 4px 0 0;
+	padding: 3px 10px 3px 10px;
+	color: #21759b;
+	text-shadow:rgba(255,255,255,1) 0 1px 0;
+	padding: 4px 14px 6px;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-khtml-border-top-left-radius:3px;
+	-khtml-border-top-right-radius:3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-color:#f7f7f7 #f7f7f7 #fff;
+	border-style:solid;
+	border-width:1px 1px 0;
+	display:inline-block;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu li.current a {
+	color: #464646;
+	background-color: #fff;
+	border-color:#dfdfdf #dfdfdf #fff;
+	height: 21px;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu a:hover,
+body.toplevel_page_WishListMember ul.wlm-sub-menu a:active,
+body.toplevel_page_WishListMember ul.wlm-sub-menu li.current a:hover {
+	color: #D54E21;
+}
+
+body.toplevel_page_WishListMember ul.wlm-sub-menu li.has-sub-menu a,
+body.toplevel_page_WishListMember ul.wlm-sub-menu li.has-sub-menu a:active,
+body.toplevel_page_WishListMember ul.wlm-sub-menu li.has-sub-menu a:hover {
+	background-color: #fbfbfb;
+	border-color:#dfdfdf #dfdfdf #fff;
+}
+
+body.toplevel_page_WishListMember ul.has-sub-sub a {
+	color: #a0a0a0;
+}
+
+body.toplevel_page_WishListMember ul.sub-sub {
+	background-color: #fbfbfb;
+}
+
+body.toplevel_page_WishListMember ul.sub-sub a {
+	background-color: #fbfbfb;
+	border-color:#fbfbfb #fbfbfb #fff;
+}
+
+/* @end */
+
+/* @group Add Member Popup */
+
+body.toplevel_page_WishListMember .popupWindow h3 {
+	font: normal normal 24px/1.5px Georgia, "Times New Roman", Times, serif;
+	color: #464646;
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+body.toplevel_page_WishListMember .popupWindow table.describe {
+	width: 100%;
+}
+
+body.toplevel_page_WishListMember .popupWindow table.describe td.field {
+	padding: 3px;
+}
+
+body.toplevel_page_WishListMember .popupWindow table.describe input {
+	width: 150px !important;
+}
+
+body.toplevel_page_WishListMember .popupWindow a.button {
+	color: #ffffff !important;
+}
+
+body.toplevel_page_WishListMember .popupWindow a.button:hover {
+	color: #EAF2FA !important;
+}
+
+/* @end */
+
+/* @group Member Levels */
+
+body.toplevel_page_WishListMember .widefat td {
+	background-color: none;
+}
+
+body.toplevel_page_WishListMember table.MembershipLevelsAdvanced td {
+	border: 0px;
+	border-left: 1px solid #dbdbdb;
+	background: none;
+}
+
+body.toplevel_page_WishListMember table.MembershipLevelsAdvanced td.first,
+body.toplevel_page_WishListMember table.MembershipLevelsAdvanced td td {
+	background: none;
+	border-left: 0px;
+}
+
+body.toplevel_page_WishListMember table tr.wpm_level_row_editor td {
+	border-bottom: 1px solid #dbdbdb !important;
+}
+
+body.toplevel_page_WishListMember .widefat thead th {
+	color: #767676 !important;
+}
+
+body.toplevel_page_WishListMember .widefat thead th a {
+	color: #21759b;
+}
+
+body.toplevel_page_WishListMember .widefat thead th a:hover {
+	color: #d54e21;
+}
+
+body.toplevel_page_WishListMember .widefat select {
+	white-space: nowrap;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow td {
+	padding: 0px !important;
+	border-top: 0px;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow .widefat {
+	border: 0px;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow .widefat th {
+	background: none !important;
+	color: #464646 !important;
+	border-bottom: 0px;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	padding: 5px 0 0 7px !important;
+	text-shadow: #fff 0 1px 0;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow .widefat tr {
+	background-color: #f7fbff;
+	padding-top: 10px;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow .widefat td {
+	padding: 7px !important;
+}
+
+body.toplevel_page_WishListMember .wlmEditRow .widefat th {
+	padding: 7px;
+}
+
+body.toplevel_page_WishListMember .wpm_level_row_editor_advanced td {
+}
+
+body.toplevel_page_WishListMember .form-table label{
+	display:inline-block;
+	min-width:40px;
+}
+
+a.wishlist-help {
+	float: right;
+	margin-right: 1px;
+}
+
+.wishlist-tooltip {
+	font-size: 14px;
+}
+
+/* @end =============================================================*/
+/* @end =============================================================*/
+
+
+div.sidebar-name h3,#menu-management .wl-nav-tab,#dashboard_plugins h5,a.rsswidget,#wl_dashboard_right_now td.b,#wl_dashboard-widgets h4,.tool-box .title,#poststuff h3,.metabox-holder h3,.pressthis a,#your-profile legend,.inline-edit-row fieldset span.title,.inline-edit-row fieldset span.checkbox-title,.tablenav .displaying-num,.widefat th,.quicktags,.search {
+font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+
+h2 .wl-nav-tab,.wrap h2,.subtitle,.login form .input {
+font-family:HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+}
+
+.wl-nav-tab {
+color:#aaa;
+text-shadow:#fff 0 1px 0;
+font-size:12px;
+line-height:16px;
+display:inline-block;
+text-decoration:none;
+-webkit-border-top-left-radius:3px;
+-webkit-border-top-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+border-style:solid;
+border-color:#DFDFDF;
+border-width:1px 1px 0;
+margin:0 6px -1px 0;
+padding:4px 14px 6px;
+}
+
+.wl-nav-tab-active {
+color:#464646;
+border-width:1px;
+}
+
+h2.wl-nav-tab-wrapper,h3.wl-nav-tab-wrapper {
+border-bottom-width:1px;
+border-bottom-style:solid;
+padding-bottom:0;
+}
+
+h2 .wl-nav-tab {
+font-weight:200;
+font-size:20px;
+line-height:24px;
+padding:4px 10px 6px;
+}
+
+.about-wrap h2.wl-nav-tab-wrapper {
+padding-left:6px;
+}
+
+.about-wrap h2 .wl-nav-tab {
+font-size:18px;
+vertical-align:top;
+margin:0 3px -1px 0;
+padding:4px 10px 6px;
+}
+
+.about-wrap h2 .wl-nav-tab-active {
+font-weight:700;
+padding-top:3px;
+}
+
+#menu-management .wl-nav-tabs-arrow {
+width:10px;
+cursor:pointer;
+position:absolute;
+top:0;
+line-height:22px;
+font-size:18px;
+text-shadow:0 1px 0 #fff;
+padding:0 5px 4px;
+}
+
+#menu-management .wl-nav-tabs-arrow-left {
+left:0;
+}
+
+#menu-management .wl-nav-tabs-arrow-right {
+right:0;
+text-align:right;
+}
+
+.nav-menus-php #post-body-content {
+position:relative;
+float:none;
+}
+
+#menu-management .wl-nav-tabs-nav {
+margin:0 20px;
+}
+
+
+
+#menu-management .wl-nav-tabs-wrapper {
+width:100%;
+height:28px;
+margin-bottom:-1px;
+overflow:hidden;
+}
+
+#menu-management .wl-nav-tabs {
+padding-left:20px;
+padding-right:10px;
+}
+
+.js #menu-management .wl-nav-tabs {
+float:left;
+margin-left:0;
+margin-right:-400px;
+}
+
+#menu-management .wl-nav-tab {
+margin-bottom:0;
+font-size:14px;
+}
+
+
+#wl_dashboard-widgets form .textarea-wrap textarea {
+	border: 0 none;
+	padding: 0;
+	outline: none;
+	width: 99%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#wl_dashboard-widgets .postbox form .submit {
+	float: none;
+	margin: .5em 0 0;
+	padding: 0;
+	border: none;
+}
+
+#wl_dashboard-widgets-wrap #wl_dashboard-widgets .postbox form .submit input {
+	margin: 0;
+}
+
+#wl_dashboard-widgets-wrap #wl_dashboard-widgets .postbox form .submit #publish {
+	min-width: 0;
+}
+
+#wl_dashboard-widgets a {
+	text-decoration: none;
+}
+
+#wl_dashboard-widgets h3 a {
+	text-decoration: underline;
+}
+
+#wl_dashboard-widgets h3 .postbox-title-action {
+	position: absolute;
+	right: 30px;
+	padding: 0;
+	top: 5px;
+}
+
+#wl_dashboard-widgets h4 {
+	font-weight: normal;
+	font-size: 13px;
+	margin: 0 0 .2em;
+	padding: 0;
+}
+
+#dashboard-widgets .widefat{
+	border:none !important;
+}
+#dashboard-widgets .widefat td{
+	border:none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#dashboard-widgets .wlmlevels td.levelname{
+	padding-left:2em;
+}
+#dashboard-widgets .wlmlevels td{
+	border-bottom: 1px solid #eee;
+}
+
+#wl_dashboard_right_now a.button{
+	float:none;
+	clear:right;
+	position:relative;
+}
+
+#wl_dashboard_right_now .spam {
+	color: red;
+}
+
+#wl_dashboard_right_now .waiting {
+	color: #e66f00;
+}
+
+#wl_dashboard_right_now .approved {
+	color: green;
+}
+
+#wl_dashboard_right_now .versions {
+	padding: 6px 10px 12px;
+	clear: both;
+}
+
+#wl_dashboard_right_now a.button {
+	float: right;
+	clear: right;
+	position: relative;
+	top: -5px;
+}
+#wlrss-postbox{
+	display: none;
+}

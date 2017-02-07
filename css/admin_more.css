@@ -1,0 +1,112 @@
+.widefat input {
+	border:1px solid #DDDDDD;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	line-height:20px;
+	padding:4px;
+}
+
+.wpm_header_link{
+	color:#888888;
+	text-decoration:none;
+}
+.wpm_header_sorta{
+	background:url(../images/arrdn.gif) center right no-repeat;
+	padding-right:12px;
+}
+.wpm_header_sortd{
+	background:url(../images/arrup.gif) center right no-repeat;
+	padding-right:12px;
+}
+
+.wpm_nowrap td{
+	white-space:nowrap;
+}
+
+ul.view-switch {
+	float: right;
+	list-style: none;
+	margin: -23px 5px -2px 0;
+	position: relative;
+}
+
+ul.view-switch li {
+	float: left;
+	margin: 0;
+	font-size: 11px;
+	padding: 4px 6px;
+	font-weight: bold;
+}
+
+ul.view-switch li.current a {
+	color: #333333;
+}
+
+.wishlist_member_admin h2{
+	border-bottom: 1px solid #DADADA;
+}
+
+#remove-save-search {
+	text-decoration:none;
+}
+
+tr.wlm_sequential_error_upgrade_method td.wlm_sequential_upgrade_method,
+tr.wlm_sequential_error_upgrade_to td.wlm_sequential_upgrade_to,
+tr.wlm_sequential_error_upgrade_schedule td.wlm_sequential_upgrade_schedule{
+	background:#FDE0E0;
+	border:1px solid red;
+}
+
+.media-modal-small {
+	left: 20%;
+	right: 20%;
+}
+
+.wlm-inner-table {
+  position: relative;
+  right: 11px;
+  top: 5px;
+  width: 114%;
+}
+
+.wlm-inner-table th {
+  font-weight: bold;
+}
+
+.wlm-inner-table-last {
+  position: relative;
+  right: 11px;
+  top: 5px;
+  top: -1px;
+  left: 27px;
+}
+
+.wlm-inner-table-last th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.media-frame-error {
+	background         : #fff;
+	border-left        : 4px solid #dd3d36;
+	-webkit-box-shadow : 0px 1px 1px 0px rgba(0,0,0,0.1);
+	box-shadow         : 0px 1px 1px 0px rgba(0,0,0,0.1);
+	margin             : 5px 0 15px;
+}
+.media-frame-error p {
+	margin  : 0.5em 0;
+	padding : 5px;
+}
+
+.wlm-color-success {
+	color: #008A2E;
+}
+
+.wlm-color-error {
+	color: #dd3d36;
+}
+
+.wlm-color-warning {
+	color: #0066FF;
+}

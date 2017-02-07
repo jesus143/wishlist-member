@@ -1,0 +1,21 @@
+.link-disabled {
+	color: gray;
+}
+
+.ui-state-highlight{
+	height:1.5em;
+	background:#fbf9ee !important;
+}
+.ui-state-highlight, .ui-state-highlight td{
+	border:1px solid #fcefa1 !important;
+
+}
+
+#wpm_membership_levels tr:hover {
+	cursor: move;
+}
+
+#wpm_membership_levels tr{
+	cursor: move;
+}
+#wlm-removefrom-tpl, .wlm-removefrom span { display: none;}

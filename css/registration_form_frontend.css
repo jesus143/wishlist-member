@@ -1,0 +1,48 @@
+/*
+ * Registration Form CSS
+*/
+
+table.wpm_registration, table.wpm_registration *{
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+table.wpm_registration{
+	width: 500px;
+}
+
+table.wpm_registration td{
+	vertical-align: top;
+}
+table.wpm_registration td.forgotpassword{
+	text-align: right;
+	color: blue;
+}
+table.wpm_registration td.label{
+	font-weight: bold;
+}
+
+table.wpm_registration div.desc{
+	font-size:small;
+	width: 300px;
+}
+
+table.wpm_registration tr.required td.label, table.wpm_registration tr.systemFld td.label{
+	color:#ff0000;
+}
+
+table.wpm_registration tr.field_tos div.desc{
+	height: 10em;
+	border: 1px solid #888888;
+	padding: 3px;
+	overflow: auto;
+	font-size: 1em;
+}
+
+table.wpm_registration tr.field_hidden{
+	display: none;
+}
+
+.lightbox_tos div.desc{
+	display:none;
+}

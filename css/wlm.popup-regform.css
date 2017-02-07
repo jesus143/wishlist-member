@@ -1,0 +1,355 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+.regform * {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: #333;
+    font-size: 16px;
+    font: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    vertical-align: baseline;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    text-shadow:none;
+    line-height: 1;
+}
+div.regform .regform-container {
+    background: #f7f7f8;
+    border-radius: 6px;
+}
+div.regform {
+    /*border: 1px solid #5f5f5f;*/
+    max-width: 404px;
+    display: none;
+    background: #FFF;
+    box-shadow: 0 0 3px 0 #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+    font-size: 12px;
+    box-shadow: 0px 0px 8px #555;
+    border-radius: 6px;
+    top: 50px;
+}
+
+div.regform .regform-header {
+	border-radius: 7px 7px 0 0;
+	border-bottom: 1px solid #dbdbdc;
+    background: rgb(247,247,248); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(247,247,248,1) 0%, rgba(238,238,239,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,248,1)), color-stop(100%,rgba(238,238,239,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(247,247,248,1) 0%,rgba(238,238,239,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(247,247,248,1) 0%,rgba(238,238,239,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(247,247,248,1) 0%,rgba(238,238,239,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(247,247,248,1) 0%,rgba(238,238,239,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f8', endColorstr='#eeeeef',GradientType=0 ); /* IE6-8 */
+    padding: 18px 15px 14px 15px;
+    box-shadow: inset 0px 1px 1px 0px #fff;
+}
+
+div.regform .regform-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-shadow: none;
+    /*letter-spacing: 1px;*/
+}
+
+div.regform .regform-header p {
+    color: #bebebe;
+    margin: 6px 0;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+div.regform .regform-header .regform-open-login {
+	color: #adadad;
+	font-weight: bold;
+}
+
+div.regform .regform-new {
+
+}
+
+div.regform input[type=text] { display: inline-block; }
+
+div.regform .regform-header  img.regform-logo {
+    height: 40px;
+    width: 90px;
+    vertical-align: bottom;
+    display: inline-block; margin-right: 12px;
+}
+
+div.regform .regform-form {
+    background: none;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+
+div.regform .regform-error p {
+	color: red;
+	text-align: center;
+}
+
+div.regform .btn-fld {
+    clear: both;
+    /*width: 370px;*/
+    overflow: hidden;
+    padding: 15px;
+}
+
+div.regform .regform-description {
+    clear: both;
+    overflow: hidden;
+    padding: 10px;
+}
+
+div.regform .txt-fld input.good_input {
+    background: #DEF5E1 !important;
+}
+div.regform .txt-fld input.error_input {
+    background: #FDE0E0 !important;
+}
+
+
+
+div.regform .regfrom-amount {font-weight: normal; font-size: 12px;}
+div.regform .regform-waiting {display: none;}
+div.regform .btn-fld .regform-button {margin: 0px auto;}
+div.regform .regform-login { display:none;}
+
+div.regform .txt-fld {
+    border-bottom: medium none;
+    margin: 0;
+    padding: 10px 15px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+div.regform .txt-fld label,
+div.regform .widefield .expires label {
+    color: #B5B5B5;
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    float: none;
+    padding-top: 0;
+    text-align: left;
+    margin: 0 0 5px;
+    width: 90px;
+}
+
+div.regform .txt-fld label {
+    font-weight: bold;
+}
+
+div.regform .txt-fld input,
+div.regform .widefield .expires input,
+div.regform .txt-fld select {
+    background: #fff;
+    border: 1px solid #c2c2c3;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 2px -1px #9f9f9f;
+    color: #777777;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    margin: 0;
+    outline: medium none;
+    padding: 8px 4px;
+    width: 100%;
+}
+
+div.regform .widefield .expires input.error_input {
+	background: #FDE0E0;
+}
+
+div.regform .widefield {
+}
+
+div.regform .widefield .expires {
+    margin: 0;
+    padding-right: 0;
+    text-align: left;
+    width: 110px;
+}
+
+div.regform .widefield .expires label{
+    font-weight: bold;
+	margin-left: 0;
+	margin-right: 5px;
+	width: auto;
+}
+
+div.regform .widefield .expires input {
+	width: 45px;
+}
+
+div.regform .btn-fld {
+	overflow: hidden;
+	padding: 15px;
+	width: auto;
+}
+/*
+div.regform .widefield .code {
+    width: 150px;
+}*/
+
+div.regform .regform-button, div.regform .btn-fld .regform-button, button.regform-button {
+    background: rgb(68,176,231); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0YjBlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTk4ZGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(68,176,231,1) 0%, rgba(49,152,222,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,176,231,1)), color-stop(100%,rgba(49,152,222,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(68,176,231,1) 0%,rgba(49,152,222,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(68,176,231,1) 0%,rgba(49,152,222,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(68,176,231,1) 0%,rgba(49,152,222,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(68,176,231,1) 0%,rgba(49,152,222,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b0e7', endColorstr='#3198de',GradientType=0 ); /* IE6-8 */
+    border: 1px solid #42a7e0;
+    border-bottom: 1px solid #2e7cc2;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: visible;
+    padding: 12px 15px;
+    width: auto;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+div.regform .regform-button:hover, button.regform-button:hover {
+    background: #3ca6e4;
+    color: #fefefe;
+}
+
+div.regform .btn-fld .regform-button {
+	margin: 10px auto;
+}
+
+div.regform .regform-close {
+    background: none repeat scroll 0 0 #d7d7d9;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 0px #333 inset;
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 2px 5px 3px 6px;
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px #555;
+    top: 12px;
+    opacity: .5;
+    line-height: 12px;
+
+}
+div.regform .regform-close:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Floated Input */
+div.regform .two-col-input {
+    float: left;
+    width: 201px;
+}
+/* Floated Input */
+div.regform .three-col-input {
+    float: left;
+    width: 132px;
+}
+
+/* Floated Input */
+div.regform .one-col-input {
+    float: left;
+    width: 402px;
+}
+
+.txt-fld.no-float:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.txt-fld.no-float {
+    display: inline-block;
+}
+html[xmlns] .txt-fld.no-float {
+    display: block;
+}
+* html .txt-fld.no-float {
+    height: 1%;
+}
+
+.regform-stripe.nocoupon .txt-fld.two-col-input.email{
+	width:100%;
+}
+
+/* Some fancybox override */
+.fancybox-skin {
+	border-radius : 7px;
+}
+
+@media screen and (max-width: 397px) {
+	div.regform {
+		margin: 0;
+		width: auto;
+        left: auto!important;
+        margin-left: 0!important;
+        width: 100%;
+        border-radius: 0;
+	}
+    div.regform .two-col-input {
+        float: none;
+        width: 100%;
+    }
+	.fancybox-skin {
+		border-radius : 0;
+	}
+	div.regform .regform-container {
+	    border-radius: 0;
+	}
+}
+
+.wlm-paypal-button {
+    cursor: pointer; cursor: hand; 
+}
+
+/*@media screen and (max-width: 320px) {
+    div.regform {
+            margin: 0;
+            width: auto;
+            left: auto!important;
+            margin-left: 0!important;
+            width: 100%;
+    }
+
+}*/

@@ -1,0 +1,221 @@
+.wlm-manage-content-table .column-wlm_payperpost_users,
+.wlm-manage-content-table .column-wlm_payperpost{
+	width: 100px !important;
+}
+.wlm-manage-content-table .column-wlm_protection {
+	width: 120px !important;
+}
+.wlm-manage-content-table .column-wlm_payperpost_users,
+.wlm-manage-content-table .column-wlm_protection,
+.wlm-manage-content-table .column-wlm_payperpost {
+	text-align: center;
+}
+.wlm-manage-content-table .column-post_date{
+	width: 92px;
+}
+
+.wlm-manage-content-table .column-taxonomy{
+	width: 120px;
+}
+
+.wlm-manage-content-table .column-wlm_padlock{
+	width: 1em;
+}
+
+.wlm-next-taxonomy th, .wlm-next-taxonomy td{
+	border-top: 3px solid darkgray;
+}
+
+.column-writable, .column-htaccess, .column-files {
+	width: 100px;
+	text-align: center !important;
+}
+
+.column-force_download {
+	width: 105px;
+	text-align: center !important;
+}
+
+.parent_folder_edit {
+	display: none;
+}
+
+button.wlm-payperpost-users-button {
+	width: 100%;
+}
+
+button.wlm-payperpost-users-button::after {
+	content: " \b1";
+}
+
+.wlm-ppp-grant-revoke {
+	width:25px;
+	text-align:center;
+	display:block;
+}
+
+.media-frame-title {
+	position: static;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	display: block !important;
+}
+.media-frame-title h3 {
+	white-space: nowrap;
+	height:1.5em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-right:3em;
+}
+.media-frame-content {
+	border-top: 1px solid #ddd !important;
+}
+
+#wlm-ppp-no-access,
+#wlm-ppp-has-access,
+#wlm-ppp-no-access tfoot,
+#wlm-ppp-has-access tfoot,
+#wlm-ppp-no-access thead,
+#wlm-ppp-has-access thead {
+	display:block;
+}
+#wlm-ppp-no-access tbody,
+#wlm-ppp-has-access tbody {
+	display: block;
+	height:10000px;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+#wlm-ppp-no-access tfoot td,
+#wlm-ppp-has-access tfoot td {
+	width: 1% !important;
+}
+
+#wlm-ppp-no-access tr td:first-child,
+#wlm-ppp-no-access tr th:first-child {
+	width:40%;
+}
+#wlm-ppp-no-access tr td:nth-child(2),
+#wlm-ppp-no-access tr th:nth-child(2) {
+	width:60%;
+}
+#wlm-ppp-has-access tr td:nth-child(2),
+#wlm-ppp-has-access tr th:nth-child(2) {
+	width:40%;
+}
+#wlm-ppp-has-access tr td:last-child,
+#wlm-ppp-has-access tr th:last-child {
+	width:60%;
+}
+
+#wlm-ppp-modal-backdrop {
+	opacity:1;
+	background:rgba(0,0,0,.7);
+}
+
+#wlm-ppp-modal-backdrop div {
+	padding:10px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-45px;
+	margin-left:-228px;
+	background:rgba(40,40,40,1);
+	color:#fff;
+	border-radius:1em;
+}
+
+.wlm-ppp-users-table tbody.search_results tr:not(.notice-row) td:first-child,
+.wlm-ppp-users-table tr.search-result td:first-child {
+	border-left: 3px solid #99ffcc;
+}
+
+.wrap h2 {
+	margin-bottom: .5em !important;
+}
+
+.tablenav.bottom {
+	display: none;
+}
+
+.the_button_spinner {
+	display: block !important;
+	margin-top:.5em;
+}
+
+#doaction {
+	margin-right: 0 !important;
+}
+
+form#wlm-ppp-user-search {
+	display: inline-block;
+	padding: 0;
+	position:relative;
+}
+
+form#wlm-ppp-user-search .button {
+	margin-right:.25em;
+}
+
+form#wlm-ppp-user-search .spinner {
+	position:absolute;
+	top: 5px;
+	right:-20px;
+}
+
+.wlm-ppp-users-container-table h3 {
+	margin: 0;
+}
+
+.wlm-ppp-users-table thead {
+	display: block;
+	width: 100%;
+}
+.wlm-ppp-users-table tbody {
+	display: block;
+	overflow-y: scroll;
+}
+.wlm-ppp-users-table tbody {
+	min-height:6em;
+	font-size:.5em;
+}
+
+.wlm-ppp-users-table tr > *:first-child{
+	width:48%;
+	min-width:100px;
+	max-width:101px;
+}
+.wlm-ppp-users-table tr > *:nth-child(2) {
+	width:49%;
+	min-width:100px;
+	max-width:101px;
+}
+.wlm-ppp-users-table tr > *:last-child {
+	width:3%;
+	min-width:80px;
+	max-width:81px;
+}
+.bulk-update .wlm-ppp-users-table.wlm-ppp-queue tr > *:last-child {
+	width:3%;
+	min-width:120px;
+	max-width:121px;
+}
+.wlm-ppp-queue-update-button.spinner {
+	margin-top: 1.6em;
+}
+
+.select2-drop-mask {
+    z-index: 2209998;
+}
+.select2-drop {
+    z-index: 2209999;
+}
+.select2-search {
+    z-index: 2010000;
+}
+
+wlmimmutable {
+	font-style: italic;
+}

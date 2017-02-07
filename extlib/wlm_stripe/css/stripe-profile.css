@@ -1,0 +1,21 @@
+#lean_overlay {position: fixed; z-index:100; top: 0px; left: 0px; height:100%; width:100%; background: #000; display: none;}
+#stripe-invoice-detail { width: 600px; min-height: 400px; display:none; padding-bottom: 2px;background: #FFF; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7); font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif; font-size: 12px;}
+#stripe-invoice-detail *{ margin: 0; padding: 0;}
+.stripe-invoice-header { background: url(../images/stripe-header.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+.stripe-invoice-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+.stripe-close { background: url(../images/stripe-close.png); position: absolute; top: 12px; right: 12px; display: block; width: 14px; height: 14px;}
+#stripe-invoice-content { padding: 10px 10px;}
+#stripe-invoice-content  h3 { color: #444; font-size: 1.3em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+.update-stripe-info { display: none; margin-top: 14px;}
+.update-stripe-info p { text-align: right; width: 250px; margin-bottom: 0px;}
+.stripe-waiting { display:none;}
+.stripe-button { cursor: pointer; display: block; font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; background: #3F9D4A; border: none; width: auto; overflow: visible; font-size: 1.4em; color: #FFF; padding: 7px 10px !important;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-weight: bold; text-shadow: 0 1px 0 rgba(0,0,0,0.4);}
+#stripe-invoice-list { display: none;}
+#stripe-invoice-list table { margin-bottom: 0px;}
+.wlm-stripe-membership-status { margin-top: 14px;}
+.wlm-stripe-membership-status table td { text-align: center;}
+.wlm-stripe-membership-status .wlm-stripe-subhead-title { text-align: left; }
+.wlm-stripe-membership-status .wlm-stripe-subhead-pastinv { text-align: right; }
+.stripe-right { position: relative; float: right;}
+.stripe-error { color: red;}
+.stripe-success { color: green;}

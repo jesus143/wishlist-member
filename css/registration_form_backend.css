@@ -1,0 +1,169 @@
+/******
+ * Custom Registration Form Admin Interface CSS
+******/
+
+table.reg_form_draggables{
+	color:#444444;
+	margin:0 0 0 0;
+	padding:0;
+	list-style:none;
+	width:200px;
+}
+
+.custom-regform-table th h3{
+	margin:0 0 .5em 0 !important;
+	padding:0 !important;
+	line-height:1.3em;
+	cursor: pointer;
+	font-size: 1.3em;
+}
+
+.custom-regform-table th hr{
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.custom-regform-table th h3 span{
+	color: #888;
+	padding-left:2px;
+}
+
+.wpm_regform_table td {
+	padding:7px
+}
+
+.reg_form_draggables td{
+	margin:2px 0;
+	padding:2px;
+	text-align:center;
+	border:1px solid #eee;
+	background:#cccccc;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	height:20px;
+	width:190px;
+	cursor:pointer;
+}
+
+.reg_form_draggables label{
+	display:block;
+}
+
+.ui-state-highlight{
+	height:1.5em;
+	background:#ffffff !important;
+}
+.ui-state-highlight, .ui-state-highlight td{
+	border:1px dashed #000000 !important;
+}
+
+#the_form_itself{
+	border:1px solid #aaa;
+	border-top:none;
+}
+
+td.editLinks {
+	white-space:nowrap;
+	line-height:2em;
+	border-left:1px solid #aaa;
+}
+td.editLinks a{
+	line-height:1em;
+	color:#666666;
+	text-decoration: none;
+	font-size:.8em;
+	display: block;
+	padding: 5px;
+	cursor:pointer;
+	border: 1px solid #666666;
+	border-radius:3px;
+	-moz-border-radius:3px;
+}
+td.editLinks a:hover{
+	background:#eeeeee;
+}
+
+div.reqNotice {
+	display:none;
+	width:75px;
+	float:right;
+}
+
+table.wpm_registration td.label{
+	cursor: pointer !important;
+	line-height: 1.5em;
+}
+
+table.wpm_registration tr.field_hidden{
+	display:block !important;
+	display:table-row !important;
+}
+
+/* ---- edit_form_div ---- */
+tr.li_edit td.label, tr.li_edit td.field_special_paragraph{
+	background:#ffffff;
+	border:1px solid #888888 !important;
+	border-bottom:none !important;
+	border-right:none !important;
+	border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	margin-bottom:5px !important;
+}
+
+tr.li_edit td.fld_div{
+	background:#ffffff;
+	border-top:1px solid #888888 !important;
+	margin-bottom:5px !important;
+}
+tr.li_edit td.editLinks{
+	background:#ffffff;
+	border:1px solid #888888 !important;
+	border-bottom:none !important;
+	border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	margin-bottom:5px !important;
+}
+
+td.edit_form_container {
+	margin:5px -3px -3px -3px;
+	padding:5px;
+	background:#e8e8e8;
+	border:1px solid #888888 !important;
+	border-top:none !important;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+}
+
+.edit_form_container h3{
+	margin:3px 0;
+	padding:0 0 3px 0;
+	border-bottom:1px solid #c0c0c0;
+}
+
+.edit_form_container th, .edit_form_container td{
+	margin:0;
+	padding:0;
+	vertical-align:middle !important;
+}
+
+.edit_form_container th{
+	padding-left: 4px;
+	width: 116px;
+}
+
+.registration_form_choices {
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 200px;
+}
+
+.registration_form_choices h3 span {
+	display: block;
+	float: right;
+}
+
+#the_form_itself {
+	vertical-align: top;
+}
